@@ -1,20 +1,30 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import { Text, View } from "react-native";
+
+//* typescript and use graphql and maybe MONGODB as this will just be about the user and no interaction because with other users people can fake their atual goals and then brag which defeats the purpose, rather it be a personal thing and then have KeepTrack as social media
+
+// * user creats profile and then can write out their goals they want
+
+//* they can check off a streak count for how many times they must complete this task (like streaks)
+
+// * user sets goal rewards so like after 6 months of running regularly they can buy new shoes
+
+// * create an algorithm that calculates the time frame and creates an ammount of experience earned from each completion of the task that will ultimately end up leveling them up to that timeframe level
+
+//* so if user misses 2 days of the task then it adds on 2 days until they get that reward (incentivizes not skipping or rarely skipping)
+
+//* circle task tracker thing like streaks where easy to just save tasks
+
+//* can hook up API from strava, myfoodfitnesspal, sleep things, myhealth(walking- 10k steps eg) and other apps which can automatically identify if the user has accomplished them and auto finishes it
+
+//* use react three fiber and react spring for cleaner animations
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+    <View>
+      <Text>LevelUp</Text>
+      <Text>Open up App.js to start working on your appss!</Text>
       <StatusBar style="auto" />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
